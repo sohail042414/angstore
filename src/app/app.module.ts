@@ -3,15 +3,17 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { ApplicationsComponent } from './applications/applications.component';
+import { ApplicationComponent } from './application/application.component';
 import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    ApplicationsComponent,
-    HomeComponent
+    ApplicationComponent,
+    HomeComponent,
+    ApplicationListComponent,
+    ApplicationDetailComponent
   ],
   imports: [
     BrowserModule
